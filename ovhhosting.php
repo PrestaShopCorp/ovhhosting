@@ -34,7 +34,7 @@ class OvhHosting extends Module
 	public function __construct()
 	{
 		$this->name = 'ovhhosting';
-		$this->tab = 'other';
+		$this->tab = 'others';
 		$this->version = '1.0.0';
 		$this->author = 'PrestaShop';
 
@@ -67,8 +67,8 @@ class OvhHosting extends Module
 			}
 			else
 			{
-				$html =  '<link rel="stylesheet" href="'.$this->_path.'views/css/configure.css" type="text/css" />';
-				$html .=  '<link rel="stylesheet" href="'.$this->_path.'views/css/configure-nobootstrap.css" type="text/css" />';
+				$html = '<link rel="stylesheet" href="'.$this->_path.'views/css/configure.css" type="text/css" />';
+				$html .= '<link rel="stylesheet" href="'.$this->_path.'views/css/configure-nobootstrap.css" type="text/css" />';
 
 				return $html;
 			}
