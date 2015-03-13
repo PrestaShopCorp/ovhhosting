@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>ovhhosting</name>
+	<displayName><![CDATA[OVH Hosting]]></displayName>
+	<version><![CDATA[1.0.0]]></version>
+	<description><![CDATA[PrestaShop Installed &amp; hosted in minutes.]]></description>
+	<author><![CDATA[PrestaShop]]></author>
+	<tab><![CDATA[other]]></tab>
+	<is_configurable>1</is_configurable>
+	<need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+</module>
